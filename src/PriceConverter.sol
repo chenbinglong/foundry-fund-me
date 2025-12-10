@@ -17,7 +17,7 @@ library PriceConverter {
         //     0x694AA1769357215DE4FAC081bf1f309aDC325306
         // );
         (, int256 answer, , , ) = priceFeed.latestRoundData();
-        console.log("answer:", answer);
+        // console.log("answer:", answer);
         // ETH/USD rate in 18 digit
         // forge-lint: disable-next-line(unsafe-typecast)
         return uint256(answer * 10000000000);
