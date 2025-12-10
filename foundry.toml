@@ -6,4 +6,8 @@ remappings = ["@chainlink/contracts=lib/chainlink-brownie-contracts/contracts"]
 # ffi = true = Foundry 测试可以执行本地脚本/外部程序
 ffi = true
 
+# solc-version = "0.8.21"
+# solc-version = "0.8.20"
+
+
 # See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options
